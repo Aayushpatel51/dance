@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: #D43D3A;
+    padding: 10px;
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center ;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 12px 30px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+}
+#navbar ul .logo{
+    margin: 0px 50px;
+}
+#navbar ul div img{
+    width: 40px;
+    filter: invert(1) drop-shadow(2px 4px 6px black);
+}
+#introSection{
+    height: 500px;
+    background: center/cover no-repeat url("/static/dance.jpg") ;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#introSection div{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.small{
+    font-size: 35px;
+    padding: 5px;
+}
+#sponsorSection{
+    height: 400px;
+    background-color: #fbd6d6c7;
+}
+#missionSection{
+    height: 500px;
+    background: center/cover no-repeat url("/static/boxer.jpg");
+    background-attachment: fixed;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #fbd6d6c7;
+    margin-bottom: 36px;
+}
+#missionSection .card{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: cornsilk;
+    margin: 23px 29px;
+    height: 309px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 44px;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    font-size: 20px;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 10px;
+}
+#sponsor{
+    height: 300px;
+    margin: 27px 375px;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

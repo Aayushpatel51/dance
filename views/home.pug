@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+block style
+    style
+        include ../static/style.css
+
+block body
+    section#introSection
+        div Welcome to Online Classes
+        div.small Eat Dance Sleep Repeat
+    section#missionSection
+        h2 Our mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png")
+                div.card-content
+                    p This is the best Dance Classes in our area.
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="../static/2.png")
+                div.card-content
+                    p This is the best Dance Classes in our area.
+        div.card
+            h3 Expert Traning
+            div.card-box
+                div.card-img
+                    img(src="../static/3.png")
+                div.card-content
+                    p This is the best Dance Classes in our area.
+    section#sponsorSection
+        h2 Our section
+        div#sponsor
+            img(src="../static/logo1.png", alt="SP Image", Class="spimage")
+            img(src="../static/logo2.png", alt="SP Image", Class="spimage")
+            img(src="../static/logo3.png", alt="SP Image", Class="spimage")
+            img(src="../static/logo4.png", alt="SP Image", Class="spimage")
